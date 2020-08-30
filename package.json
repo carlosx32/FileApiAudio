@@ -1,0 +1,19 @@
+{
+  "name": "fileapiaudio",
+  "version": "1.0.0",
+  "description": "project to upload audiofiles and data to mongodb ",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carlosx32/FileApiAudio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carlosx32/FileApiAudio/issues"
+  },
+  "homepage": "https://github.com/carlosx32/FileApiAudio#readme"
+}
