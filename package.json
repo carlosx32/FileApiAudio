@@ -4,7 +4,8 @@
   "description": "project to upload audiofiles and data to mongodb ",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "start": "node src/index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/carlosx32/FileApiAudio/issues"
   },
-  "homepage": "https://github.com/carlosx32/FileApiAudio#readme"
+  "homepage": "https://github.com/carlosx32/FileApiAudio#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mocha": "^8.1.3"
+  }
 }
