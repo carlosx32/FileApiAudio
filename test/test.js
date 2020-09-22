@@ -1,8 +1,29 @@
 var assert = require('assert');
-describe('Array', function () {
-  describe('#indexOf()', function () {
-    it('should return -1 when the value is not present', function () {
-      assert.equal([1, 2, 3].indexOf(4), -1);
+
+
+describe('File_api', function () {
+  describe('uploadFile', function () {
+    it('shuld return ok when file is uploaded', function () {
+        data={
+            response:'void'
+        }
+        assert.equal('ok',data.response );
     });
+    it('shuld return wrong when file is not uploaded', function () {
+        data={
+            response:'void'
+        }
+        assert.equal('ok',data.response );
+    });
+
+    it('shuld return ok when file is uploaded', function () {
+        data={
+            response:'void'
+        }
+        assert.equal('ok',data.response );
+    });
+
   });
+
+  
 });
