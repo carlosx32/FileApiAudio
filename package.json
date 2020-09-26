@@ -1,31 +1,24 @@
 {
-  "name": "fileapiaudio",
+  "name": "audioData",
   "version": "1.0.0",
-  "description": "project to upload audiofiles and data to mongodb ",
+  "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "mocha",
-    "start": "node src/index.js",
-    "develop": "nodemon src/index.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/carlosx32/FileApiAudio.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/carlosx32/FileApiAudio/issues"
-  },
-  "homepage": "https://github.com/carlosx32/FileApiAudio#readme",
   "dependencies": {
-    "chai": "^4.2.0",
-    "cors": "^2.8.5",
+    "cross-env": "^7.0.2",
+    "dotenv": "^8.2.0",
     "express": "^4.17.1",
-    "mocha": "^8.1.3",
-    "mongodb": "^3.6.0",
-    "morgan": "^1.10.0",
-    "multer": "^1.4.2",
+    "mongoose": "^5.10.7",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
     "nodemon": "^2.0.4"
-  }
+  },
+  "scripts": {
+    "develop": "nodemon src/index.js",
+    "serv": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
